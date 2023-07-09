@@ -1,0 +1,90 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.list {
+  display: flex;
+  gap: 1rem;
+  width: 90%;
+  margin: auto;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.image-divs {
+  position: relative;
+  cursor: pointer;
+}
+.image-divs img {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+}
+.detail {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  text-align: left;
+  gap: 2rem;
+}
+.image {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+}
+span {
+  color: #5d3fd3;
+  font-weight: bolder;
+  font-size: large;
+}
+
+a {
+  color: blanchedalmond;
+  text-decoration: none;
+}
+.purple {
+  color: #5d3fd3;
+  font-weight: bolder;
+}
+.name-of-place {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  position: absolute;
+  bottom: 0.5rem;
+  left: 1rem;
+  font-weight: bolder;
+}
