@@ -1,9 +1,11 @@
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import { Continents } from "./Pages/Continents";
-import { SingleContinent, SinglePage } from "./Pages/SinglePage";
+// eslint-disable-next-line no-unused-vars
+import { Single, SinglePage } from "./Pages/SinglePage";
 import { Country } from "./Pages/Country";
-import { DestinationDetail, Destinations } from "./Pages/Destinations";
+// eslint-disable-next-line no-unused-vars
+import { Destination, Destinations } from "./Pages/Destinations";
 
 function App() {
   return (
